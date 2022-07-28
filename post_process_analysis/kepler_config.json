@@ -1,0 +1,4446 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "x3sr7mj",
+          "type": "point",
+          "config": {
+            "dataId": "Cambrian Railways",
+            "label": "Cambrian Railways by seperation",
+            "color": [
+              18,
+              147,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "seperation",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": {
+              "name": "seperation",
+              "type": "real"
+            },
+            "sizeScale": "sqrt"
+          }
+        },
+        {
+          "id": "1p0ju9",
+          "type": "geojson",
+          "config": {
+            "dataId": "Cambrian Railways",
+            "label": "Cambrian Railways",
+            "color": [
+              221,
+              178,
+              124
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "42fnf8",
+          "type": "point",
+          "config": {
+            "dataId": "London and South Western Railway",
+            "label": "selected entity",
+            "color": [
+              136,
+              87,
+              44
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "fpyg6nu",
+          "type": "geojson",
+          "config": {
+            "dataId": "London and South Western Railway",
+            "label": "London and South Western Railway",
+            "color": [
+              255,
+              153,
+              31
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "vhj1maq",
+          "type": "point",
+          "config": {
+            "dataId": "London and North Western Railway",
+            "label": "selected entity",
+            "color": [
+              241,
+              92,
+              23
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "bjklpcr",
+          "type": "geojson",
+          "config": {
+            "dataId": "London and North Western Railway",
+            "label": "London and North Western Railway",
+            "color": [
+              34,
+              63,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "fxrwidc",
+          "type": "point",
+          "config": {
+            "dataId": "Great Eastern Railway",
+            "label": "selected entity",
+            "color": [
+              218,
+              112,
+              191
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "68xzzc",
+          "type": "geojson",
+          "config": {
+            "dataId": "Great Eastern Railway",
+            "label": "Great Eastern Railway",
+            "color": [
+              18,
+              92,
+              119
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "i2gphpt",
+          "type": "point",
+          "config": {
+            "dataId": "Great North of Scotland Railway",
+            "label": "selected entity",
+            "color": [
+              77,
+              193,
+              156
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "tikrd4t",
+          "type": "geojson",
+          "config": {
+            "dataId": "Great North of Scotland Railway",
+            "label": "Great North of Scotland Railway",
+            "color": [
+              119,
+              110,
+              87
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "xty66r",
+          "type": "point",
+          "config": {
+            "dataId": "North British Railway",
+            "label": "selected entity",
+            "color": [
+              23,
+              184,
+              190
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "41wo1h4",
+          "type": "geojson",
+          "config": {
+            "dataId": "North British Railway",
+            "label": "North British Railway",
+            "color": [
+              246,
+              209,
+              138
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "9f12eel",
+          "type": "point",
+          "config": {
+            "dataId": "Lancashire and Yorkshire Railway",
+            "label": "selected entity",
+            "color": [
+              183,
+              136,
+              94
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "780m1jk",
+          "type": "geojson",
+          "config": {
+            "dataId": "Lancashire and Yorkshire Railway",
+            "label": "Lancashire and Yorkshire Railway",
+            "color": [
+              255,
+              203,
+              153
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "njhopbs",
+          "type": "point",
+          "config": {
+            "dataId": "Great Northern Railway",
+            "label": "selected entity",
+            "color": [
+              248,
+              149,
+              112
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "ub5t15o",
+          "type": "geojson",
+          "config": {
+            "dataId": "Great Northern Railway",
+            "label": "Great Northern Railway",
+            "color": [
+              130,
+              154,
+              227
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "4huxdvd",
+          "type": "point",
+          "config": {
+            "dataId": "Midland Railway",
+            "label": "selected entity",
+            "color": [
+              231,
+              159,
+              213
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "rycneu",
+          "type": "geojson",
+          "config": {
+            "dataId": "Midland Railway",
+            "label": "Midland Railway",
+            "color": [
+              30,
+              150,
+              190
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "01osrr",
+          "type": "point",
+          "config": {
+            "dataId": "Glasgow and South Western Railway",
+            "label": "selected entity",
+            "color": [
+              137,
+              218,
+              193
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "s84f1vh",
+          "type": "geojson",
+          "config": {
+            "dataId": "Glasgow and South Western Railway",
+            "label": "Glasgow and South Western Railway",
+            "color": [
+              179,
+              173,
+              158
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "8xmpx3",
+          "type": "point",
+          "config": {
+            "dataId": "London, Chatham and Dover Railway",
+            "label": "selected entity",
+            "color": [
+              18,
+              147,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "ngo05wk",
+          "type": "geojson",
+          "config": {
+            "dataId": "London, Chatham and Dover Railway",
+            "label": "London, Chatham and Dover Railway",
+            "color": [
+              221,
+              178,
+              124
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "jl1thlm",
+          "type": "point",
+          "config": {
+            "dataId": "South Eastern Railway",
+            "label": "selected entity",
+            "color": [
+              136,
+              87,
+              44
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "s671kif",
+          "type": "geojson",
+          "config": {
+            "dataId": "South Eastern Railway",
+            "label": "South Eastern Railway",
+            "color": [
+              255,
+              153,
+              31
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "6bm6yj",
+          "type": "point",
+          "config": {
+            "dataId": "Caledonian Railway",
+            "label": "selected entity",
+            "color": [
+              241,
+              92,
+              23
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "7uuavw",
+          "type": "geojson",
+          "config": {
+            "dataId": "Caledonian Railway",
+            "label": "Caledonian Railway",
+            "color": [
+              34,
+              63,
+              154
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "cvm2fuf",
+          "type": "point",
+          "config": {
+            "dataId": "London, Brighton and South Coast Railway",
+            "label": "selected entity",
+            "color": [
+              218,
+              112,
+              191
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "ozi7uem",
+          "type": "geojson",
+          "config": {
+            "dataId": "London, Brighton and South Coast Railway",
+            "label": "London, Brighton and South Coast Railway",
+            "color": [
+              18,
+              92,
+              119
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "g10cxh",
+          "type": "point",
+          "config": {
+            "dataId": "Great Central Railway",
+            "label": "selected entity",
+            "color": [
+              77,
+              193,
+              156
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "jdo3txp",
+          "type": "geojson",
+          "config": {
+            "dataId": "Great Central Railway",
+            "label": "Great Central Railway",
+            "color": [
+              119,
+              110,
+              87
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "kqrcblwh",
+          "type": "point",
+          "config": {
+            "dataId": "Highland Railway",
+            "label": "selected entity",
+            "color": [
+              23,
+              184,
+              190
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "1ysohjxn",
+          "type": "geojson",
+          "config": {
+            "dataId": "Highland Railway",
+            "label": "Highland Railway",
+            "color": [
+              246,
+              209,
+              138
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "nzkztjb",
+          "type": "point",
+          "config": {
+            "dataId": "North Staffordshire Railway",
+            "label": "selected entity",
+            "color": [
+              183,
+              136,
+              94
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "uccwdij",
+          "type": "geojson",
+          "config": {
+            "dataId": "North Staffordshire Railway",
+            "label": "North Staffordshire Railway",
+            "color": [
+              255,
+              203,
+              153
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "ysb9tt6",
+          "type": "point",
+          "config": {
+            "dataId": "Taff Vale Railway",
+            "label": "selected entity",
+            "color": [
+              248,
+              149,
+              112
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "4qbd397",
+          "type": "geojson",
+          "config": {
+            "dataId": "Taff Vale Railway",
+            "label": "Taff Vale Railway",
+            "color": [
+              130,
+              154,
+              227
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "sekku0a",
+          "type": "point",
+          "config": {
+            "dataId": "North Eastern Railway",
+            "label": "selected entity",
+            "color": [
+              231,
+              159,
+              213
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "htrnmxd",
+          "type": "geojson",
+          "config": {
+            "dataId": "North Eastern Railway",
+            "label": "North Eastern Railway",
+            "color": [
+              30,
+              150,
+              190
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        },
+        {
+          "id": "h18e9qf",
+          "type": "point",
+          "config": {
+            "dataId": "Great Western Railway",
+            "label": "selected entity",
+            "color": [
+              137,
+              218,
+              193
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "selected_entity_latitude",
+              "lng": "selected_entity_longitude",
+              "altitude": null
+            },
+            "isVisible": false,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "conf_place",
+              "type": "real"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "tkmznsj",
+          "type": "geojson",
+          "config": {
+            "dataId": "Great Western Railway",
+            "label": "Great Western Railway",
+            "color": [
+              179,
+              173,
+              158
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "geojson": "_geojson"
+            },
+            "isVisible": false,
+            "visConfig": {
+              "opacity": 0.8,
+              "strokeOpacity": 0.8,
+              "thickness": 0.5,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radius": 10,
+              "sizeRange": [
+                0,
+                10
+              ],
+              "radiusRange": [
+                0,
+                50
+              ],
+              "heightRange": [
+                0,
+                500
+              ],
+              "elevationScale": 5,
+              "enableElevationZoomFactor": true,
+              "stroked": false,
+              "filled": true,
+              "enable3d": false,
+              "wireframe": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "heightField": null,
+            "heightScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "Cambrian Railways": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "London and South Western Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "London and North Western Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Great Eastern Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Great North of Scotland Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "North British Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Lancashire and Yorkshire Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Great Northern Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Midland Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Glasgow and South Western Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "London, Chatham and Dover Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "South Eastern Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Caledonian Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "London, Brighton and South Coast Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Great Central Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Highland Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "North Staffordshire Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Taff Vale Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "North Eastern Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ],
+            "Great Western Railway": [
+              {
+                "name": "AbbrStation",
+                "format": null
+              },
+              {
+                "name": "AltCompanies",
+                "format": null
+              },
+              {
+                "name": "Altnames",
+                "format": null
+              },
+              {
+                "name": "Closing",
+                "format": null
+              },
+              {
+                "name": "Company",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 53.54385057350595,
+      "longitude": -7.551676439409201,
+      "pitch": 0,
+      "zoom": 4.158258283453816,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "muted",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        224.4071295378559,
+        224.4071295378559,
+        224.4071295378559
+      ],
+      "mapStyles": {}
+    }
+  }
+}
